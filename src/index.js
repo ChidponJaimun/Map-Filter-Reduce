@@ -33,3 +33,10 @@
 //   return x > 4;
 // });
 // console.log(newNumbers5);
+
+import emojipedia from "./emojipedia";
+
+const newPhrase = emojipedia.map(function (x) {
+  return x.meaning.substring(0, 100);
+});
+console.log(newPhrase);
