@@ -10,7 +10,7 @@ console.log(newNumber);
 //Filter - Create a new array by keeping the items that return true.
 var numbers2 = [3, 56, 2, 48, 5];
 numbers2.filter(function (num) {
-  return num > 2;
+  return num > 10;
 });
 
 console.log(numbers2);
